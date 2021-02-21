@@ -1,0 +1,10 @@
+div{
+    background-color: #a2d5f2;
+    bottom: 0;
+    /* position: fixed; */
+    width: 100%;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+}

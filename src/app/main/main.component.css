@@ -1,0 +1,19 @@
+#encodedMsg{
+    border: 1px solid black;
+    user-select:all;
+    background-color: rgba(255, 201, 60, 1);
+}
+#focus{
+    margin-right: 20%;
+    margin-left: 20%;
+    margin-top: 30px;
+    margin-bottom: 10%;
+    background-color: rgba(64, 168, 196, 0.2);
+    border: solid #ffc93c 3px;
+    border-radius: 9%;
+    box-shadow: 2px 2px 2px 2px black;
+}
+textarea{
+    width: 60%;
+    height:200px;
+}

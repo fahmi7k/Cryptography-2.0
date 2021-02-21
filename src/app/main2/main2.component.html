@@ -1,0 +1,16 @@
+<div id="focus">
+    <h1>Choose format:</h1>
+    <select name='method' id='methodSelect' (change)='changeMethod()'>
+        <option selected disabled>Choose format:</option>
+        <option value="1">Old School Cellphone</option>
+        <option value="3">Morse Code</option>
+    </select>
+
+
+    <h1>Enter your message to decode:</h1>
+    <textarea value id='msgToDecode'></textarea><br>
+    <button (click)='sendToCryptographer()'>Decode</button> <button (click)='clear()'>Clear</button>
+    <p id='decodedMsg' *ngIf='decodedMsg'>{{decodedMsg}}</p><button *ngIf='decodedMsg'
+        (click)='copy()'>Copy</button>
+
+</div>

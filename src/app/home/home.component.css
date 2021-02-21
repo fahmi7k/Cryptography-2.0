@@ -1,0 +1,56 @@
+#focus{
+    margin-right: 6%;
+    margin-left: 6%;
+    margin-top: 30px;
+    margin-bottom: 400px;
+    background-color: rgba(64, 168, 196, 0.2);
+    border: solid #ffc93c 3px;
+    border-radius: 9%;
+    box-shadow: 2px 2px 2px 2px black;
+    padding: 3%;
+}
+.mainCard{
+    border: solid #ffc93c 3px;
+    border-radius: 9%;
+    box-shadow: 2px 2px 2px 2px black;
+}
+
+.card{
+    border: solid #ffc93c 3px;
+    border-radius: 9%;
+    box-shadow: 2px 2px 2px 2px black;
+    width: fit-content;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+#cards{
+    display: flex;
+    margin-top: 15px;
+    justify-content: space-around;
+}
+#heading{
+    font-weight: bolder;
+    font-size: 140%;
+    margin-top: 1%;
+}
+#cryptography{
+    color: #ffc93c;
+    text-shadow: 2px 2px black;
+}
+#bio{
+    font-weight: 900;
+}
+.method{
+    margin-top: 0;
+    font-size: 80%;
+}
+h5{
+   
+    margin-bottom: 0;
+    font-weight: bold;
+    margin-top: 2px;
+    font-size: 120%;
+}
+.info{
+    padding: 2%;
+}
